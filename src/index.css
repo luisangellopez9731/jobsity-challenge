@@ -1,0 +1,8 @@
+@font-face {
+  font-family: Intro;
+  src: url("./assets/fonts/Intro.otf");
+}
+
+body {
+  font-family: Intro !important;
+}
