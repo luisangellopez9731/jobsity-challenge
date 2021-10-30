@@ -1,0 +1,13 @@
+{
+  "header": {
+    "navbar": {
+      "links": {
+        "program": "Program",
+        "gallery": "gallery",
+        "reviews": "reviews",
+        "partners": "partners",
+        "contact": "contact"
+      }
+    }
+  }
+}
