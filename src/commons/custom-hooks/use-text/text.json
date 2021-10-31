@@ -13,5 +13,19 @@
   "banner": {
     "intensiveProgram": "Intensive program barista training",
     "onTheBasis": "On the basis of the company's largest coffee roasters"
+  },
+  "program": {
+    "weShare": "We share their experience and professional barista championship",
+    "tabs": {
+      "basic": "Basic",
+      "premium": "Premium",
+      "platinum": "Platinum",
+      "basicTabInfo": {
+        "title": "Beginners Course",
+        "certificate": "certificate",
+        "minutes": "240 minets",
+        "button": "registration"
+      }
+    }
   }
 }

@@ -1,13 +1,19 @@
-import { Banner, Header } from "sections";
+import { Banner, Header, Program } from "sections";
+import bgSrc from "assets/images/program/bg.jpg";
 import backgroundSrc from "assets/images/header/background.png";
 
 function App() {
   return (
     <>
-      <img src={backgroundSrc} width="100%" style={{ position: "absolute" }} />
+      <div className="position-absolute">
+        <img src={backgroundSrc} width="100%" />
+        <img src={bgSrc} width="100%" />
+      </div>
+
       <div style={{ position: "relative" }}>
         <Header />
         <Banner />
+        <Program />
       </div>
     </>
   );

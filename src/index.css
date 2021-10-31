@@ -6,3 +6,7 @@
 body {
   font-family: Intro !important;
 }
+
+p {
+  margin-bottom: 0px !important;
+}
