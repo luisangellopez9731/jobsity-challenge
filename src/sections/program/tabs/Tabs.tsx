@@ -7,7 +7,7 @@ export const Tabs = () => {
   const [selected, setSelected] = useState("1");
   const { basic, premium, platinum } = useText("program.tabs");
   return (
-    <div className="d-flex justify-content-center">
+    <div className="d-flex justify-content-center mb-5">
       <div className="w-75">
         <TabsBootstrap
           activeKey={selected}
