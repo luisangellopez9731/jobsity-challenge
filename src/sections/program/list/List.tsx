@@ -7,12 +7,12 @@ interface ItemProps {
 const Item = ({ title, content }: ItemProps) => {
   const contentArr = content.split("<br />");
   return (
-    <div style={{ width: "30%"}}>
+    <div style={{ width: "30%" }}>
       <hr />
       <h5 className="mb-3">{title}</h5>
       <div>
         {contentArr.map((text) => (
-          <p>{text}</p>
+          <p style={{fontSize: 8}}>{text}</p>
         ))}
       </div>
     </div>
@@ -22,12 +22,10 @@ const Item = ({ title, content }: ItemProps) => {
 export const List = () => {
   const list = useText("program.list") as any;
   return (
-    <div className="position-relative w-100 d-flex justify-content-center">
-      <div className="w-75 d-flex justify-content-between">
-        {[list["1"], list["2"], list["3"]].map((item) => (
-          <Item {...item} />
-        ))}
-      </div>
+    <div className="d-flex justify-content-between">
+      {[list["1"], list["2"], list["3"]].map((item) => (
+        <Item {...item} />
+      ))}
     </div>
   );
 };

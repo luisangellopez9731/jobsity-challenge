@@ -40,6 +40,52 @@
         "title": "roasting Technology bean. and Stage types of roasting.",
         "content": "- The technology of roasting coffee beans.<br />- Changes in the beans.<br />- Stages and types of roasting<br />- Roasted coffee. Monosorta and hood.<br />- Decaffeination of coffee<br />- Flavoring<br />- Storage roasted coffee"
       }
+    },
+    "table": {
+      "title": "the course also includes:",
+      "rows": [
+        {
+          "included": true,
+          "text": "Coffee machine and grinder - practice - types of coffee machines and coffee grinders"
+        },
+        {
+          "included": true,
+          "text": "What makes professional coffee machines and coffee grinders."
+        },
+        {
+          "included": false,
+          "text": "Main components of coffee machines and coffee-Lathes, autolathes. Their purpose"
+        },
+        {
+          "included": false,
+          "text": "How to choose a coffee machine and coffee grinder"
+        },
+        {
+          "included": false,
+          "text": "The structure of the machine. How to maintain, clean and customize coffee machine"
+        },
+        {
+          "included": false,
+          "text": "Making beverages - praktika - machines and espresso rules"
+        },
+        { "included": true, "text": "Technology and regulations frothed milk" },
+        { "included": false, "text": "Terms of tasting coffee" },
+        {
+          "included": false,
+          "text": "Terms of preparation of standard drinks line: espresso, cappuccino, latte and others."
+        },
+        {
+          "included": false,
+          "text": "Latte Art - Features practice and the importance of Latte Art in business and the barista"
+        },
+        { "included": false, "text": "1 views Latte Art - pitching" },
+        { "included": false, "text": "2 views Latte Art - topping" },
+        { "included": false, "text": "3 views Latte Art - Etching" },
+        {
+          "included": false,
+          "text": "4 views Latte Art - chocolate chip stencils"
+        }
+      ]
     }
   }
 }
