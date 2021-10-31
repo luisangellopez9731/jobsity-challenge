@@ -10,7 +10,7 @@ export const Title = () => {
         <img className="mx-5" src={startSrc} width={15} />
         <img src={titleSrc} width="22%" />
         <img className="mx-5" src={startSrc} width={15} />
-        <p className="my-2" style={{ fontSize: 10 }}>
+        <p className="my-4" style={{ fontSize: 10 }}>
           {weShare}
         </p>
       </div>

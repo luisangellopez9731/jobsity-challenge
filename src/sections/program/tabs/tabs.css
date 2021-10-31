@@ -1,0 +1,21 @@
+.tabs .tab {
+  padding: 0 2rem;
+}
+
+ul.tabs {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+}
+
+.tabs button.nav-link {
+  border: none;
+  font-weight: bolder;
+  margin-bottom: -2px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.tabs button.nav-link.active {
+  color: black;
+  background-color: transparent;
+  border-bottom: 2px solid black;
+}

@@ -6,7 +6,6 @@ export const Navbar = () => {
   const { links } = useText("header.navbar");
   const { program, gallery, reviews, partners, contact } = links;
   const navItems = [program, gallery, reviews, partners, contact];
-  console.log(links);
   return (
     <>
       <NavbarBootstrap expand="lg">

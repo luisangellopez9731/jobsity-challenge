@@ -5,14 +5,25 @@ interface ItemProps {
   content: string;
 }
 const Item = ({ title, content }: ItemProps) => {
+  const titleArr = title.split("<br />");
   const contentArr = content.split("<br />");
   return (
     <div style={{ width: "30%" }}>
       <hr />
-      <h5 className="mb-3">{title}</h5>
+      <h5
+        className="mb-3 font-weight-bold text-uppercase"
+        style={{ fontSize: 10 }}
+      >
+        {titleArr.map((text) => (
+          <>
+            {text}
+            <br />
+          </>
+        ))}
+      </h5>
       <div>
         {contentArr.map((text) => (
-          <p style={{fontSize: 8}}>{text}</p>
+          <p style={{ fontSize: 8 }}>{text}</p>
         ))}
       </div>
     </div>

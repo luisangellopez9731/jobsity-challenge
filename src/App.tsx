@@ -13,7 +13,9 @@ function App() {
       <div style={{ position: "relative" }}>
         <Header />
         <Banner />
-        <Program />
+        <div className="my-5">
+          <Program />
+        </div>
       </div>
     </>
   );
