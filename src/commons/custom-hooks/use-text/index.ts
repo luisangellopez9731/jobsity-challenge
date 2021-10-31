@@ -1,1 +1,1 @@
-export * from "./useText";
+export { useText } from "./useText";

@@ -9,5 +9,9 @@
         "contact": "contact"
       }
     }
+  },
+  "banner": {
+    "intensiveProgram": "Intensive program barista training",
+    "onTheBasis": "On the basis of the company's largest coffee roasters"
   }
 }
